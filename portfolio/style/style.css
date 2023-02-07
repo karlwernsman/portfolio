@@ -1,0 +1,15 @@
+.color-change-3x {
+  animation: color-change-3x 4s linear infinite alternate both;
+}
+
+@keyframes color-change-3x {
+  0% {
+    background: #52796f;
+  }
+  50% {
+    background: #84a98c;
+  }
+  100% {
+    background: #cad2c5;
+  }
+}
