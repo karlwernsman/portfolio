@@ -1,29 +1,36 @@
 * {
   font-family: "Rubik", sans-serif;
   text-align: center;
+  color: #735751;
 }
 
 /* background animation */
-.color-change-3x {
-  animation: color-change-3x 4s linear infinite alternate both;
+.color-change-5x {
+  animation: color-change-5x 8s linear infinite alternate both;
 }
 
-@keyframes color-change-3x {
+@keyframes color-change-5x {
   0% {
-    background: #52796f;
+    background: #efd3d7;
+  }
+  25% {
+    background: #cebebe;
   }
   50% {
-    background: #84a98c;
+    background: #d5b9b2;
+  }
+  75% {
+    background: #e6ccb2;
   }
   100% {
-    background: #cad2c5;
+    background: #ede0d4;
   }
 }
 
 /* name animation */
 .tracking-in-expand {
-  font-family: "Monoton", cursive;
-  font-size: 3em;
+  font-family: "Kumar One Outline", cursive;
+  font-size: 4em;
   animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) both;
 }
 
@@ -41,11 +48,27 @@
 }
 
 .karl-intro {
-  margin-top: -50px;
+  margin-top: -80px;
 }
 
 .headshot {
   width: 300px;
   opacity: 0.6;
   border-radius: 50%;
+}
+
+header {
+  width: 100%;
+  display: grid;
+  justify-content: end;
+}
+
+.headerNav {
+  display: flex;
+  gap: 10px;
+}
+
+.nav {
+  text-decoration: none;
+  color: #735751;
 }
